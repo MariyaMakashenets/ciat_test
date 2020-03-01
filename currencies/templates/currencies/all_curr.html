@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    table, th, td {
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 5px;
+    }
+    th {
+      text-align: left;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <title>Курсы валют</title>
+</head>
+<body>
+    <h1> Курсы валют на {{ondate}}</h1>
+<table style="width:100%">
+  <tr>
+    <th>Валюта</th>
+    <th>Курс покупки</th>
+    <th>Курс продажи</th>
+  </tr>
+  <tr>
+    <td>{{currency}}</td>
+    <td>{{buying_rate}}</td>
+    <td>{{selling_rate}}</td>
+  </tr>
+</table>
+</body>
+</html>
